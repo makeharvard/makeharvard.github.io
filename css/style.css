@@ -102,7 +102,7 @@ a:focus {
 }
 
 p {
-    line-height: 36px;
+    line-height: 38px;
 }
 
 b {
@@ -138,7 +138,8 @@ fieldset {
 	margin-bottom: 30px;
 	border-left: 4px solid #4c9cef;
     margin-left: -15px;
-    padding-left: 10px;
+  line-height:50px;
+
 }
 
 .section-title-style {
