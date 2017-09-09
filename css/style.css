@@ -1,19 +1,19 @@
 /*
-   
+
     Template Name : Wesoon - Creative Coming Soon
     Author : UiPasta Team
     Website : http://www.uipasta.com/
     Support : http://www.uipasta.com/support/
-	
-	
+
+
 */
 
 
 
 /*
-   
+
    Table Of Content
-   
+
    1. Global Style
    2. Preloader
    3. Home Section with CountDown Timer
@@ -31,13 +31,22 @@
   15. Responsive
   16. Useful Classes ( Such as : Margin, Padding, colors  "This classes will be helpful for you during designing/development time.")
   17. UiPasta Credit
- 
+
 
 */
 
 
 
 /* Global Style */
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
 
 body {
     font-size: 12px;
@@ -54,7 +63,7 @@ body {
 }
 
 ::selection {
-    background-color: #ffa500;
+    background-color: #4d4dcb;
     color: #ffffff;
 }
 
@@ -93,7 +102,7 @@ a:focus {
 }
 
 p {
-    line-height: 28px;
+    line-height: 36px;
 }
 
 b {
@@ -199,7 +208,7 @@ fieldset {
   transform: perspective(1px) translateZ(0);
   box-shadow: 0 0 1px transparent;
   position: relative;
-  background: #4c9cef;
+  background: #28bd73;
   -webkit-transition-property: color;
   transition-property: color;
   -webkit-transition-duration: 0.3s;
@@ -214,7 +223,7 @@ fieldset {
   left: 0;
   right: 0;
   bottom: 0;
-  background: #ffa500;
+  background: #28bd73;
   border-radius: 5px;
   -webkit-transform: scale(1);
   transform: scale(1);
@@ -294,11 +303,11 @@ fieldset {
 	border-bottom: 1px;
     text-align: center;
     margin: 0 auto;
-    padding: 60px;
-    margin-top: 20px;
+    padding: 20px;
+    margin-top: 5px;
     overflow: hidden;
-    border-top-left-radius: 50%;
-    border-top-right-radius: 50%;
+    border-top-left-radius: 20%;
+    border-top-right-radius: 20%;
     background-color: #4c9cef;
 }
 
@@ -886,8 +895,8 @@ fieldset {
 }
 
 .footer-section .column-one {
-	padding: 80px 0px;
-	background-color: #ffa500;
+	padding: 40px 0px;
+	background-color: #c5d1d3;
 }
 
 .footer-section .column-two {
@@ -906,7 +915,7 @@ fieldset {
     display: none;
     font-size: 40px;
     text-align: center;
-    color: #ffa500;
+    color: #28bd73;
     position: fixed;
     right: 8px;
     bottom: 30px;
@@ -927,7 +936,7 @@ fieldset {
 	.our-team h3 {
 		font-size: 12px;
 	}
-	
+
 	.our-team p {
 		font-size: 10px;
 	}
@@ -939,7 +948,7 @@ fieldset {
 		width: 100% !important;
 		margin: 0px !important;
 	}
-	
+
 	.countdown-timer {
 		border-bottom: 2px solid #ffffff;
 	}
@@ -957,16 +966,16 @@ fieldset {
 	 .section-title h2 {
 		 font-size: 15px;
 	 }
-	 
+
 	 .icon-style {
 		 font-size: 25px;
 		 margin-top: -57px;
 	 }
-	 
+
 	 .social-icon li a {
          font-size: 22px;
      }
-      
+
      .subscribe-form .submit-btn {
          position: inherit;
          width: 100px;
@@ -983,84 +992,84 @@ fieldset {
           font-weight: 600;
           font-size: 10px;
 	  }
-	  
+
      .button-style:before {
           display: none;
 	   }
-	   
+
 	  .form-control {
 		  font-size: 11px;
 	  }
-	   
+
 	  .map-icon {
 		  margin-right: -18px;
 	  }
-	
+
 }
 
 @media only screen and (max-width: 360px) {
 	.home-section-background img {
 		width: 100% !important;
 	}
-	
+
 	.home-section-background h2 {
 		font-size: 40px;
 	}
-	
+
 	.section-title-style {
 		border-bottom: 3px solid #4c9cef;
 	}
-	
+
 	.countdown-timer {
 		padding: 42px;
 	}
-	
+
 	.countdown-timer span {
 		font-size: 20px;
 	}
-	
+
 	.statistics {
 		padding: 20px;
 	}
-	
+
 	.statistics-content > h5 {
 		font-size: 16px;
 	}
-	
+
 	.statistics-content > span {
 		font-size: 8px;
 	}
-	
+
 	.statistics-icon {
 		font-size: 25px;
 	}
-	
+
 	.our-services h3 {
 		font-size: 15px;
 		line-height: 24px;
 	}
-	
+
 	.our-services h3:after {
 		display: none;
 	}
-	
+
 	.our-team-box {
 		padding: 1px 0px;
 	}
-	
+
 	.our-team h3 {
 		font-size: 10px;
 	}
-	
+
 	.our-team p {
 		font-size: 8px;
 		line-height: 15px;
 	}
-	
+
 	.form-control {
 		font-size: 10px;
 	}
-	
+
 	.icon-style {
 		display: none;
 	}
@@ -1361,27 +1370,27 @@ fieldset {
 /* Background Color */
 
 .bg-color-1 {
-	background-color: #f306a0;
+	background-color: #576775;
 }
 
 .bg-color-2 {
-	background-color: #d60bfb;
+	background-color: #28bd73;
 }
 
 .bg-color-3 {
-	background-color: #d8be10;
+	background-color: #c5d1d3;
 }
 
 .bg-color-4 {
-	background-color: #0fd28a;
+	background-color: #4d4dcb;
 }
 
 .bg-color-5 {
-	background-color: #f97400;
+	background-color: #9090d4;
 }
 
 .bg-color-6 {
-	background-color: #08a6f3;
+	background-color: #1D1D4B;
 }
 
 
