@@ -12,6 +12,12 @@
   font-size:18pt;
 }
 
+footer {
+  height:50px;
+  padding-top: 20px;
+  padding-bottom:70px;
+}
+
 #about {
   color:white;
   background-color:#333;
@@ -53,7 +59,7 @@ html {
 
 #content {
   text-align:center;
-  padding-top:5%;
+  padding-top:10%;
   text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4),
                 0px 8px 13px rgba(0, 0, 0, 0.1),
                 0px 18px 23px rgba(0, 0, 0,0.1);
@@ -65,7 +71,7 @@ h1 {
 }
 
 hr {
-  width:400px;
+  width:80%;
   border-top: 1px solid #F8F8F8;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2)
 }
@@ -77,10 +83,31 @@ hr {
 header {
   position: relative;
   background-color: black;
-  height: 67vh;
+  height: 40vh;
   min-height: 25rem;
   width: 100%;
   overflow: hidden;
+}
+
+@media screen and (min-width: 400px) {
+
+}
+
+@media screen and (min-width: 580px) {
+    header {
+        height:80vh;
+    }
+    #content {
+      padding-top:5%;
+    }
+    #gear-one {
+      margin-top: -1vh;
+    }
+}
+
+#gear-one {
+  margin-top:1vh;
+  z-index:2
 }
 
 header video {
@@ -90,7 +117,7 @@ header video {
   min-width: 100%;
   min-height: 100%;
   width: auto;
-  height: auto;
+  height: 100%;
   z-index: 0;
   -ms-transform: translateX(-50%) translateY(-50%);
   -moz-transform: translateX(-50%) translateY(-50%);
@@ -116,7 +143,7 @@ header .overlay {
 
 @media (pointer: coarse) and (hover: none) {
   header {
-    background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+    background: black no-repeat center center scroll;
   }
   header video {
     display: none;
