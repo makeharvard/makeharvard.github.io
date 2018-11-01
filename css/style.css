@@ -83,25 +83,31 @@ hr {
 header {
   position: relative;
   background-color: black;
-  height: 40vh;
-  min-height: 25rem;
+  height: 22em;
   width: 100%;
   overflow: hidden;
 }
 
-@media screen and (min-width: 400px) {
-
+#banner{
+  width:95%;
+  padding-top:2vh;
+  padding-bottom:2vh;
 }
 
-@media screen and (min-width: 580px) {
+@media screen and (min-width: 700px) {
     header {
-        height:80vh;
+        height:70vh;
     }
     #content {
       padding-top:5%;
     }
     #gear-one {
       margin-top: -1vh;
+    }
+    #banner {
+      width:70%;
+      padding-top:0px;
+      padding-bottom:0px;
     }
 }
 
