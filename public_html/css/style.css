@@ -1,0 +1,155 @@
+.jumbotron {
+  color: #65B847;
+  background:#ecf0f1;
+}
+
+.light-green {
+  color: #65B847;
+}
+
+.navbar-inverse {
+  background-color: #000;
+  font-size:18pt;
+}
+
+footer {
+  height:50px;
+  padding-top: 20px;
+  padding-bottom:70px;
+}
+
+#about {
+  color:white;
+  background-color:#333;
+  padding-top 0;
+  padding-bottom:0;
+}
+.body-container {
+  max-width:70%;
+}
+
+a {
+  color:#9DF1E6;
+}
+
+h3 {
+  font-size:12pt;
+}
+
+.navbar-inverse .navbar-nav>li>a{
+  color:white;
+}
+
+.navbar-inverse .navbar-brand {
+  color:white;
+}
+
+body {
+  padding-top:10px;
+  font-family: "Oxygen", sans-serif;
+  background:#000;
+
+}
+
+html {
+  height:100%;
+}
+
+#content {
+  text-align:center;
+  padding-top:10%;
+  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4),
+                0px 8px 13px rgba(0, 0, 0, 0.1),
+                0px 18px 23px rgba(0, 0, 0,0.1);
+}
+
+h1 {
+  font-size: 5em;
+  font-weight: 700;
+}
+
+hr {
+  width:80%;
+  border-top: 1px solid #F8F8F8;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2)
+}
+
+.btn-primary {
+  color:000;
+}
+
+header {
+  position: relative;
+  background-color: black;
+  height: 22em;
+  width: 100%;
+  overflow: hidden;
+}
+
+#banner{
+  width:95%;
+  padding-top:2vh;
+  padding-bottom:2vh;
+}
+
+@media screen and (min-width: 700px) {
+    header {
+        height:70vh;
+    }
+    #content {
+      padding-top:5%;
+    }
+    #gear-one {
+      margin-top: -1vh;
+    }
+    #banner {
+      width:70%;
+      padding-top:0px;
+      padding-bottom:0px;
+    }
+}
+
+#gear-one {
+  margin-top:1vh;
+  z-index:2
+}
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: 100%;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.1;
+  z-index: 1;
+}
+
+@media (pointer: coarse) and (hover: none) {
+  header {
+    background: black no-repeat center center scroll;
+  }
+  header video {
+    display: none;
+  }
+}
