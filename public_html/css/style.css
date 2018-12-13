@@ -21,13 +21,16 @@ footer {
 #about {
   color:white;
   background-color:#333;
-  padding-top 0;
+  padding-top: 0;
   padding-bottom:0;
 }
 .body-container {
   max-width:70%;
 }
 
+#faq{
+ background-color: #5a5959;
+}
 a {
   color:#9DF1E6;
 }
@@ -120,8 +123,8 @@ header video {
   left: 50%;
   min-width: 100%;
   min-height: 100%;
-  width: auto;
-  height: 100%;
+  width: 100%;
+  height: auto;
   z-index: 0;
   -ms-transform: translateX(-50%) translateY(-50%);
   -moz-transform: translateX(-50%) translateY(-50%);
